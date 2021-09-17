@@ -23,6 +23,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'yarn'
       - run: yarn install --flozen-lockfile
+      - run: yarn prettier --check src
       - run: yarn lint
       - run: yarn build
       - run: yarn test
