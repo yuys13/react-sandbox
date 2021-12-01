@@ -1,7 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
 
-function App(): JSX.Element {
+const App: React.VFC = function app() {
   return (
     <div className="App">
       <header className="App-header">
