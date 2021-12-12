@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/yuys13/react-sandbox/actions/workflows/CI.yml/badge.svg)](https://github.com/yuys13/react-sandbox/actions/workflows/CI.yml)
+[![CodeQL](https://github.com/yuys13/react-sandbox/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/yuys13/react-sandbox/actions/workflows/codeql-analysis.yml)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
