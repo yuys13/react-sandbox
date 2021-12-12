@@ -51,6 +51,13 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['**/*.test.*'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+        'react/jsx-props-no-spreading': 'off',
+      },
+    },
+    {
       files: ['**/*.stories.*'],
       rules: {
         'import/no-anonymous-default-export': 'off',
