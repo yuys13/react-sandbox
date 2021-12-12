@@ -11,6 +11,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:storybook/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -41,6 +42,21 @@ module.exports = {
       },
     ],
     'react/react-in-jsx-scope': 'off',
-    'no-void': ['error', { allowAsStatement: true }],
+    'no-void': [
+      'error',
+      {
+        allowAsStatement: true,
+      },
+    ],
   },
+  overrides: [
+    {
+      files: ['**/*.stories.*'],
+      rules: {
+        'import/no-anonymous-default-export': 'off',
+        'import/no-extraneous-dependencies': 'off',
+        'react/jsx-props-no-spreading': 'off',
+      },
+    },
+  ],
 }
