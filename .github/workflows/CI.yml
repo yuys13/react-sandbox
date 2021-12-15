@@ -25,5 +25,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn prettier --check src
       - run: yarn lint
+      - run: yarn build-storybook
       - run: yarn build
       - run: yarn test
