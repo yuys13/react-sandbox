@@ -1,22 +1,16 @@
-# Workflow name
-name: 'Chromatic'
+---
+name: Dependabot Chromatic
+on: pull_request_target
 
-# Event for the workflow
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-# List of jobs
 jobs:
-  chromatic-deployment:
+  dependabot:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          ref: ${{github.event.pull_request.head.sha}}
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
