@@ -3,7 +3,7 @@ name: Dependabot Chromatic
 on: pull_request_target
 
 jobs:
-  dependabot:
+  chromatic-deployment:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
