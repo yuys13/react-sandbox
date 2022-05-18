@@ -48,7 +48,7 @@
     "@storybook/node-logger": "^6.4.19",
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^6.4.22",
-    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "chromatic": "^6.5.4",
     "eslint": "^8.15.0",
