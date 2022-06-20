@@ -49,7 +49,7 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.9",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "chromatic": "^6.6.3",
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",
