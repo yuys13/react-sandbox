@@ -1,0 +1,11 @@
+extends: default
+
+rules:
+  document-start: disable
+  comments:
+    min-spaces-from-content: 1
+  truthy:
+    allowed-values: ['true', 'false', 'on']
+  line-length:
+    max: 120
+# vim: ft=yaml
