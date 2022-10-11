@@ -9,19 +9,15 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: '23:00'
-    assignees:
-      - 'yuys13'
+      time: '22:00'
 
   # Maintain dependencies for npm
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
-      time: '23:00'
+      time: '22:00'
     ignore:
       - dependency-name: '*'
         update-types:
           - version-update:semver-major
-    assignees:
-      - 'yuys13'
