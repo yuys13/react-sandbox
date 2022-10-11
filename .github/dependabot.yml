@@ -9,7 +9,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: '23:00'
+      time: '22:00'
     assignees:
       - 'yuys13'
 
@@ -18,7 +18,7 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
-      time: '23:00'
+      time: '22:00'
     ignore:
       - dependency-name: '*'
         update-types:
