@@ -39,13 +39,13 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-links": "^6.5.15",
     "@storybook/addon-storyshots": "^6.5.15",
     "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/manager-webpack5": "^6.5.15",
-    "@storybook/node-logger": "^6.5.14",
+    "@storybook/node-logger": "^6.5.15",
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.15",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
