@@ -13,6 +13,17 @@ exports[`Storyshots CreateReactApp/App Sample App 1`] = `
       src="logo.svg"
     />
     <p>
+      You clicked 
+      0
+       times
+    </p>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Click me
+    </button>
+    <p>
       Edit 
       <code>
         src/App.tsx
