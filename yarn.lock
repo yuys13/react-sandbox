@@ -2074,19 +2074,19 @@
     "@storybook/types" "7.0.9"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storyshots@^7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-7.0.9.tgz#21cdbfdbd8d20d4ffd64328897ee926098c6b692"
-  integrity sha512-Fqgd3iU46SYI/csZQq9tReCF1EirolLfd0xvQdZg+2DrPlq31r2P5OYaOJ5EZMfpTjre6r2BaiaNA0gSH+6xbQ==
+"@storybook/addon-storyshots@^7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-7.0.10.tgz#fffeaf46e8edb4f1439ad932d769aaf31217fbbf"
+  integrity sha512-HoAP4eGmBwej7nAlwFnW95e7Bwbwy8curK0hCI4aj1ScSeabxixn30ovDkvaxGjDe9nf1bOZWB2CbC1vExr+gA==
   dependencies:
     "@jest/transform" "^29.3.1"
     "@storybook/babel-plugin-require-context-hook" "1.0.1"
-    "@storybook/client-api" "7.0.9"
-    "@storybook/core-common" "7.0.9"
-    "@storybook/core-webpack" "7.0.9"
+    "@storybook/client-api" "7.0.10"
+    "@storybook/core-common" "7.0.10"
+    "@storybook/core-webpack" "7.0.10"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.9"
-    "@storybook/types" "7.0.9"
+    "@storybook/preview-api" "7.0.10"
+    "@storybook/types" "7.0.10"
     "@types/glob" "^7.1.3"
     "@types/jest-specific-snapshot" "^0.5.6"
     glob "^8.1.0"
@@ -2332,6 +2332,14 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/client-api@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-7.0.10.tgz#c4f6b5a84403de4266d13468b3b8f605ff49cf99"
+  integrity sha512-jseUPSdyVLc2XwhZP8PitIzbPErj4cXEIzEwysiBfOZytcOw0cECjdVBU7Q6XhvvgiPbeK8mkfZCTJOZBQHIJA==
+  dependencies:
+    "@storybook/client-logger" "7.0.10"
+    "@storybook/preview-api" "7.0.10"
+
 "@storybook/client-api@7.0.9":
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-7.0.9.tgz#7a280c7f858f5e0c6496e9e87474b2007794154c"
@@ -2502,6 +2510,17 @@
     util-deprecate "^1.0.2"
     watchpack "^2.2.0"
     ws "^8.2.3"
+
+"@storybook/core-webpack@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-7.0.10.tgz#f179c74b23522fa84810711048b7b4d8a841e474"
+  integrity sha512-6tg/EMHkL4iAQTEzIPC3wgWKeFQ/GWA2Wu3xENSEarBSGwIqXHl40PvWxd8p+25sIQGryXRkqt5QJJcdsSzcbg==
+  dependencies:
+    "@storybook/core-common" "7.0.10"
+    "@storybook/node-logger" "7.0.10"
+    "@storybook/types" "7.0.10"
+    "@types/node" "^16.0.0"
+    ts-dedent "^2.0.0"
 
 "@storybook/core-webpack@7.0.9":
   version "7.0.9"
