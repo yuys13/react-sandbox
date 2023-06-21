@@ -40,13 +40,13 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^7.0.22",
-    "@storybook/addon-essentials": "^7.0.21",
+    "@storybook/addon-essentials": "^7.0.22",
     "@storybook/addon-links": "^7.0.22",
-    "@storybook/addon-storyshots": "^7.0.21",
+    "@storybook/addon-storyshots": "^7.0.22",
     "@storybook/node-logger": "^7.0.22",
     "@storybook/preset-create-react-app": "^7.0.22",
-    "@storybook/react": "^7.0.21",
-    "@storybook/react-webpack5": "^7.0.21",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "chromatic": "^6.19.8",
@@ -59,7 +59,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.12",
     "prettier": "^2.8.7",
-    "storybook": "^7.0.21",
+    "storybook": "^7.0.22",
     "webpack": "5"
   }
 }
