@@ -42,7 +42,7 @@
     "@storybook/addon-actions": "^7.0.26",
     "@storybook/addon-essentials": "^7.0.25",
     "@storybook/addon-links": "^7.0.26",
-    "@storybook/addon-storyshots": "^7.0.25",
+    "@storybook/addon-storyshots": "^7.0.26",
     "@storybook/node-logger": "^7.0.26",
     "@storybook/preset-create-react-app": "^7.0.26",
     "@storybook/react": "^7.0.25",
