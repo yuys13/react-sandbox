@@ -43,7 +43,7 @@ export const Button: React.VFC<ButtonProps> = function button({
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(
-        ' '
+        ' ',
       )}
       style={{ backgroundColor }}
       {...props}
