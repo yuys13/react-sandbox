@@ -44,7 +44,7 @@
     "@storybook/addon-links": "^7.2.3",
     "@storybook/addon-storyshots": "^7.2.3",
     "@storybook/node-logger": "^7.2.3",
-    "@storybook/preset-create-react-app": "^7.2.3",
+    "@storybook/preset-create-react-app": "^7.3.0",
     "@storybook/react": "^7.2.3",
     "@storybook/react-webpack5": "^7.2.3",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
