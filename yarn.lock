@@ -3360,19 +3360,19 @@
     "@storybook/types" "7.3.1"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storyshots@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-7.3.1.tgz#7082203f3ee9bd866db1e3d7f2d35a2490cfbc6d"
-  integrity sha512-Pysqkx+b6y0qr9+2RqXwxe1ZsT6aZvXp7x60PmEAxDvyiRlTbj2q5iEnwhuImtcOgpniXEE9UEU9HSPWe5nmZQ==
+"@storybook/addon-storyshots@^7.3.2":
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-7.3.2.tgz#a38ea5d594f23341b1e1208ddfae5ed0ef798d8d"
+  integrity sha512-iJOKnRcVVhs4zHMyTc3WXNL6u7EK+gTBLbqWgTzr8bRFH2DbjAP/W1pQkruY/s6pKY+3jzLqfZ2how731cEorw==
   dependencies:
     "@jest/transform" "^29.3.1"
     "@storybook/babel-plugin-require-context-hook" "1.0.1"
-    "@storybook/client-api" "7.3.1"
-    "@storybook/core-common" "7.3.1"
-    "@storybook/core-webpack" "7.3.1"
+    "@storybook/client-api" "7.3.2"
+    "@storybook/core-common" "7.3.2"
+    "@storybook/core-webpack" "7.3.2"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.3.1"
-    "@storybook/types" "7.3.1"
+    "@storybook/preview-api" "7.3.2"
+    "@storybook/types" "7.3.2"
     "@types/jest-specific-snapshot" "^0.5.6"
     glob "^10.0.0"
     jest-specific-snapshot "^8.0.0"
@@ -3576,13 +3576,13 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/client-api@7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-7.3.1.tgz#34c490bcf82bae83c23c3f1da03e4e64be8d194d"
-  integrity sha512-HjxLvuB8Q+PjF0va6xizI4O8v35tduQk5y3o46GyAjikObYUFV4XAzet29jKY1tsdMpNnKDqb8FmsXUCiMYGEQ==
+"@storybook/client-api@7.3.2":
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-7.3.2.tgz#4f667b69691150fadf137a1e291f18f6a255717e"
+  integrity sha512-8BjoEbuBMvlJAYcIurVn7ghq3plgInOVC8IjswALhSBkvz5V2PRPFSAo9kKaDytNSw2gy1JLgp8imCvMo72+Mw==
   dependencies:
-    "@storybook/client-logger" "7.3.1"
-    "@storybook/preview-api" "7.3.1"
+    "@storybook/client-logger" "7.3.2"
+    "@storybook/preview-api" "7.3.2"
 
 "@storybook/client-logger@7.3.1":
   version "7.3.1"
@@ -3782,6 +3782,17 @@
     "@storybook/core-common" "7.3.1"
     "@storybook/node-logger" "7.3.1"
     "@storybook/types" "7.3.1"
+    "@types/node" "^16.0.0"
+    ts-dedent "^2.0.0"
+
+"@storybook/core-webpack@7.3.2":
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-7.3.2.tgz#1d0cc04dc2224ceeb55528d3e4cb5c8518118ffb"
+  integrity sha512-N0Z1jzodhhGjTWwW4VfL/41z/Q4YEPXcYUVyTjuOgyW23uXD+3bTvBZInmWIpZezSJUgyyzAt6KamN2PBpAE1g==
+  dependencies:
+    "@storybook/core-common" "7.3.2"
+    "@storybook/node-logger" "7.3.2"
+    "@storybook/types" "7.3.2"
     "@types/node" "^16.0.0"
     ts-dedent "^2.0.0"
 
