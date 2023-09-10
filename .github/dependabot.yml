@@ -17,6 +17,14 @@ updates:
     schedule:
       interval: 'daily'
       time: '22:00'
+    groups:
+      storybook:
+        patterns:
+          - 'storybook'
+          - '@storybook/*'
+      typescript-eslint:
+        patterns:
+          - '@typescript-eslint/*'
     ignore:
       - dependency-name: '*'
         update-types:
