@@ -43,7 +43,7 @@
     "@storybook/addon-essentials": "^7.4.1",
     "@storybook/addon-links": "^7.4.1",
     "@storybook/addon-storyshots": "^7.4.1",
-    "@storybook/node-logger": "^7.3.2",
+    "@storybook/node-logger": "^7.4.1",
     "@storybook/preset-create-react-app": "^7.4.1",
     "@storybook/react": "^7.4.1",
     "@storybook/react-webpack5": "^7.4.1",
