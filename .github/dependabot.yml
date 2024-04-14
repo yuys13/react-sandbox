@@ -18,6 +18,9 @@ updates:
       interval: 'daily'
       time: '22:00'
     groups:
+      patch:
+        update-types:
+          - 'patch'
       storybook:
         patterns:
           - 'storybook'
