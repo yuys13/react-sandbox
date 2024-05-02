@@ -17,9 +17,6 @@ updates:
     schedule:
       interval: 'weekly'
     groups:
-      patch:
-        update-types:
-          - 'patch'
       storybook:
         patterns:
           - 'storybook'
@@ -27,6 +24,9 @@ updates:
       typescript-eslint:
         patterns:
           - '@typescript-eslint/*'
+      patch:
+        update-types:
+          - 'patch'
     ignore:
       - dependency-name: '*'
         update-types:
