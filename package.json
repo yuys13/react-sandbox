@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.4",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
@@ -39,14 +39,14 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^7.6.17",
-    "@storybook/addon-essentials": "^7.6.17",
-    "@storybook/addon-links": "^7.6.17",
+    "@storybook/addon-actions": "^7.6.19",
+    "@storybook/addon-essentials": "^7.6.19",
+    "@storybook/addon-links": "^7.6.19",
     "@storybook/addon-storyshots": "^7.6.17",
     "@storybook/node-logger": "^7.4.1",
-    "@storybook/preset-create-react-app": "^7.6.17",
-    "@storybook/react": "^7.6.17",
-    "@storybook/react-webpack5": "^7.6.17",
+    "@storybook/preset-create-react-app": "^7.6.19",
+    "@storybook/react": "^7.6.19",
+    "@storybook/react-webpack5": "^7.6.19",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "chromatic": "^7.6.0",
@@ -58,8 +58,8 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "prettier": "^3.3.1",
-    "storybook": "^7.6.17",
+    "prettier": "^3.3.2",
+    "storybook": "^7.6.19",
     "webpack": "5"
   }
 }
